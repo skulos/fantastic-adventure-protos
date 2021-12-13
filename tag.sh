@@ -1,6 +1,12 @@
 #/bin/bash
 
-TAG=v0.0.2
+TAG=v0.0.3
+
+git add .
+
+git commit -m "initial commit"
+
+git push
 
 git tag $TAG
 git push origin $TAG
