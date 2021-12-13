@@ -1,4 +1,4 @@
-module fantastic-adventure-protos
+module github.com/skulos/fantastic-adventure-protos
 
 go 1.17
 
