@@ -1,0 +1,16 @@
+// Proto version
+syntax = "proto3";
+
+
+// Package name
+package storagemetrics;
+
+
+// Golang Package
+option go_package = ".;storagemetrics";
+
+
+// ====================================================================
+//  StorageGate Service
+// ====================================================================
+service StorageMetrics {}
